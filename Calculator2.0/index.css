@@ -1,0 +1,44 @@
+#keys {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Important concept to remember */
+    background-color: hsl(0, 0%, 0%);
+    padding: 15px;
+    gap: 0.5rem;
+    border-radius: 15px;
+}
+button {
+    background-color: rgb(39, 32, 32);
+    color: white;
+    border-radius: 15px;
+    font-size: 4rem;
+}
+button:hover {
+    background-color: hsl(0, 47%, 96%);
+    cursor: pointer;
+}
+button:active {
+    background-color: hsl(0, 0%, 99%);
+}
+#display {
+    display: flex;
+    padding: 40px;
+    width: 100%;
+    color: white;
+    background-color: hsl(0, 2%, 18%);
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 5rem;
+}
+.operator {
+    background-color: hsl(36, 100%, 50%);
+}
+.equal {
+    background-color: hsl(194, 100%, 50%);
+}
+#Calculate {
+    background-color: hsl(0, 0%, 1%);
+    border-radius: 15px;
+    overflow: hidden;
+}
